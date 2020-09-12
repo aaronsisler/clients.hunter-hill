@@ -9,17 +9,19 @@
       object-fit: cover;
     }
     &__content {
-      padding: $MEDIUM;
+      padding: 0 $MEDIUM $MEDIUM;
       &-title {
         @include font-type($MAIN_FONT, $LARGE, bold);
+
+        margin: $LARGE 0;
       }
       p {
-        margin: $SMALL 0;
+        margin: $SMALL 0 $MEDIUM;
       }
       &-sec-title {
         @include font-type($MAIN_FONT, $MIDLARGE, bold);
 
-        margin: $SMALL 0;
+        margin-bottom: $MIDLARGE;
       }
     }
   }
@@ -36,7 +38,13 @@
       object-fit: cover;
     }
     &__content {
-      padding: $XLARGE 15%;
+      padding: 0 15% $MIDLARGE;
+      &-title {
+        margin: $LARGE 0;
+      }
+      p {
+        margin: $SMALL 0 $MEDIUM;
+      }
     }
   }
 }

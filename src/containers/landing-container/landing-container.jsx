@@ -9,10 +9,6 @@ const CDN_URL = getCdnUrl("/landing");
 
 const splashImage = {
   altText: "Flowers on the front outdoor porch",
-  src: `${CDN_URL}/landing-container__front-porch.jpg`
-};
-const outdoorImage = {
-  altText: "Picture of the back of facility",
   src: `${CDN_URL}/landing-container__splash.jpg`
 };
 
@@ -21,7 +17,7 @@ const LandingContainer = () => (
     <Image className="landing-container__splash-image" {...splashImage} />
     <div className="landing-container__content">
       <h1 className="landing-container__content-title">
-        Life is better at Waterbrooke
+        Life is better at Hunter Hill
       </h1>
       <p>
         Located in the beautiful and historic “Harbor of Hospitality”,
@@ -36,7 +32,6 @@ const LandingContainer = () => (
         <Hyperlink href="/daily-life" title="learning more here." />
       </p>
     </div>
-    <Image className="landing-container__second-image" {...outdoorImage} />
     <div className="landing-container__content">
       <h2 className="landing-container__content-sec-title">
         Not sure where to begin?
