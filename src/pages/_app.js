@@ -16,7 +16,7 @@ class MyApp extends App {
             name="viewport"
             content="initial-scale=1.0, width=device-width"
           />
-          <title>Waterbrooke Assisted Living</title>
+          <title>Hunter Hill Assisted Living</title>
         </Head>
         <Navbar />
         <Component {...pageProps} />

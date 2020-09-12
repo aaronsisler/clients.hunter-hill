@@ -19,7 +19,7 @@ const navigationLinks = [
   },
   {
     key: "life",
-    title: "Waterbrooke Life",
+    title: "Hunter Hill Life",
     links: [
       { title: "A Day in the Life", href: "/daily-life" },
       { title: "Activities", href: "/activities" },

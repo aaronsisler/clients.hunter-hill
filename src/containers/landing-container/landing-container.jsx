@@ -20,15 +20,11 @@ const LandingContainer = () => (
         Life is better at Hunter Hill
       </h1>
       <p>
-        Located in the beautiful and historic “Harbor of Hospitality”,
-        Waterbrooke of Elizabeth City is a licensed assisted living community.
-        We are conveniently located next to the Sentara Albemarle Hospital with
-        access to many local healthcare providers.
-      </p>
-      <p>
-        You will find days with fewer worries, more options, and a community
-        that feels just like home. Find a sense of belonging in our community of
-        friends by&nbsp;
+        Located in the Atlantic coastal plain region of North Carolina, Hunter
+        Hill of Rocky Mount is a licensed assisted living community. You will
+        find days with fewer worries, more options, and a community that feels
+        just like home. Find a sense of belonging in our community of friends
+        by&nbsp;
         <Hyperlink href="/daily-life" title="learning more here." />
       </p>
     </div>
