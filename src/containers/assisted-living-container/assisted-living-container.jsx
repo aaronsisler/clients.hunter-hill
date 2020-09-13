@@ -27,7 +27,7 @@ const AssistedLivingContainer = () => (
         Our services make the difference
       </h1>
       <p>
-        At Waterbrooke, we offer much more than a place to stay. We offer a
+        At Hunter Hill, we offer much more than a place to stay. We offer a
         place to live well. Our residents share some common values: to be
         recognized as individuals, to lead lives with a sense of purpose, and to
         maintain connections with people and interests that are meaningful to

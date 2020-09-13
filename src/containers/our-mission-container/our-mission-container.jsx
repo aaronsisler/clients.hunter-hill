@@ -20,7 +20,7 @@ const OurMissionContainer = () => (
         Our mission is caring for you.
       </h1>
       <p>
-        At Waterbrooke, we strive to create an atmosphere of comfort and
+        At Hunter Hill, we strive to create an atmosphere of comfort and
         security while providing the best possible care for each individual. We
         promote independence and encouragement to live each day to the fullest.
       </p>
@@ -35,7 +35,7 @@ const OurMissionContainer = () => (
       <h2 className="our-mission-container__sec-title">Leading by example</h2>
       <p>
         We take pride in the fact that our staff within memory care do not just
-        simply meet state minimum requirements for training. It is Waterbrooke’s
+        simply meet state minimum requirements for training. It is Hunter Hill’s
         protocol that employees continually exhibit they have retained the
         information and can perform proper approaches and techniques with our
         residents.

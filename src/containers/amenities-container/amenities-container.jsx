@@ -9,7 +9,7 @@ const AmenitiesContainer = () => (
     <div className="amenities-container__header">
       <h1 className="amenities-container__header-title">Amenities</h1>
       <p>
-        Living at Waterbrooke gives you perks you would never have living at
+        Living at Hunter Hill gives you perks you would never have living at
         home.
       </p>
     </div>

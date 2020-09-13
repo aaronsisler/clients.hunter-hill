@@ -14,29 +14,11 @@ const amenities = [
   },
   {
     content:
-      "Waterbrooke's library offers a variety of books and magazines. The library offers a quiet place for families or friends to sit and visit. Our activities department also utilizes the library for small group and one-on-one activities.",
-    title: "Library",
-    image: {
-      altText: "Library with two sitting chairs",
-      src: `${CDN_URL}/amenities-container__library.jpg`
-    }
-  },
-  {
-    content:
       "We offer two rooms equipped with large, flat-screen TVs for our residents' enjoyment.",
     title: "Family Rooms",
     image: {
       altText: "Family room with large screen tv",
       src: `${CDN_URL}/amenities-container__family-room.jpg`
-    }
-  },
-  {
-    content:
-      "We have a resident dog, named Patches, who loves to sit and enjoy your company.",
-    title: "Friendly neighbors",
-    image: {
-      altText: "Two staff members with resident dog",
-      src: `${CDN_URL}/amenities-container__dog.jpg`
     }
   },
   {
@@ -59,15 +41,6 @@ const amenities = [
   },
   {
     content:
-      "Our convenience store offers a wide variety of items that you may find at a local convenience or five-and-dime store. All proceeds go directly to our residents' activities funds.",
-    title: "Convenience Store",
-    image: {
-      altText: "Convenience store with items",
-      src: `${CDN_URL}/amenities-container__store.jpg`
-    }
-  },
-  {
-    content:
       "Our beauty/barber shop is open weekly for haircuts, styling, manicures, and pedicures.",
     title: "Beauty/Barber Shop",
     image: {
@@ -77,16 +50,7 @@ const amenities = [
   },
   {
     content:
-      "Waterbrooke has a dedicated hospice room to allow for a peaceful transition.",
-    title: "Hospice Room",
-    image: {
-      altText: "Hospice room with bed and comfy recliner chair.",
-      src: `${CDN_URL}/amenities-container__hospice.jpg`
-    }
-  },
-  {
-    content:
-      "Waterbrooke is easily navigated and accessible for individuals using wheelchairs and other assistive devices.",
+      "Hunter Hill is easily navigated and accessible for individuals using wheelchairs and other assistive devices.",
     title: "Handicap Accessibility"
   }
 ];

@@ -12,7 +12,7 @@ const ActivitiesContainer = () => (
       </h1>
       <p>
         By creating new memories together, we experience close connections that
-        feel like family. At Waterbrooke, you will have the opportunity to find
+        feel like family. At Hunter Hill, you will have the opportunity to find
         the balance that’s right for you. This might include taking part in
         fitness classes, art activities, or our popular cooking classes.
       </p>

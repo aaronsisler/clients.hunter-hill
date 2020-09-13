@@ -52,7 +52,7 @@ const DailyLifeContainer = () => (
       <div className="daily-life-container__topic">
         <h2 className="daily-life-container__topic-title">Dining Experience</h2>
         <p className="daily-life-container__topic-content">
-          A great meal is one of life’s simple pleasures. At Waterbrooke, we
+          A great meal is one of life’s simple pleasures. At Hunter Hill, we
           believe dining well is part of living well. Your loved one will enjoy
           restaurant-style dining with chef-prepared meals. Each day features a
           variety of menu options that changes daily. So your loved one won’t
