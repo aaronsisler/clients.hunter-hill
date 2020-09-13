@@ -4,13 +4,13 @@
 //Small screens - MOBILE
 @media only screen {
   .amenities-container {
-    padding: $MEDIUM;
+    padding: $LARGE $MEDIUM;
     &__header {
       h1 {
         @include font-type($MAIN_FONT, $LARGE, bold);
       }
       p {
-        margin: $SMALL 0;
+        margin: $SMALL 0 $MEDIUM;
       }
     }
     &__sec-title {
@@ -28,7 +28,7 @@
           @include font-type($MAIN_FONT, $MEDIUM, bold);
         }
         &-content {
-          margin-top: $XSMALL;
+          margin-top: $SMALL;
         }
       }
     }
@@ -38,7 +38,7 @@
 //Medium screens - TABLET
 @media only screen and (min-width: $MEDIUM_SCREEN) {
   .amenities-container {
-    padding: $MEDIUM 15% $XLARGE;
+    padding: $LARGE 15%;
     &__list {
       max-width: 700px;
       &-item {
@@ -53,7 +53,7 @@
 //Large screens - DESKTOP
 @media only screen and (min-width: $LARGE_SCREEN) {
   .amenities-container {
-    padding: $MEDIUM 25% $XLARGE;
+    padding: $XLARGE 25% $XLARGE;
     &__section {
       &-image {
         max-width: 450px;

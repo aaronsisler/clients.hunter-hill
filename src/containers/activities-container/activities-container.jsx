@@ -1,6 +1,8 @@
 import React from "react";
-import Image from "../../atoms/image";
-import { activities, eventImages } from "../../content/activities";
+import { activities } from "../../content/activities";
+
+// import Image from "../../atoms/image";
+// import { activities, eventImages } from "../../content/activities";
 
 import "./activities-container.scss";
 
@@ -17,7 +19,7 @@ const ActivitiesContainer = () => (
         fitness classes, art activities, or our popular cooking classes.
       </p>
     </div>
-    <div className="activities-container__images">
+    {/* <div className="activities-container__images">
       {eventImages.map((eventImage, index) => (
         <Image
           className="activities-container__image"
@@ -25,8 +27,8 @@ const ActivitiesContainer = () => (
           {...eventImage}
         />
       ))}
-    </div>
-    <hr />
+    </div> */}
+    {/* <hr /> */}
     <div className="activities-container__activities">
       <h2 className="activities-container__sec-title">Activities</h2>
       <ul className="activities-container__list">

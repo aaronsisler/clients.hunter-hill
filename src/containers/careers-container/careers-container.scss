@@ -11,22 +11,22 @@
       h1 {
         @include font-type($MAIN_FONT, $LARGE, bold);
 
-        margin: $SMALL 0;
+        margin: $MEDIUM 0;
       }
       p {
-        margin-bottom: $SMALL;
+        margin-bottom: $MIDLARGE;
       }
     }
     &__content {
       display: grid;
-      grid-gap: $MEDIUM;
-      padding: $MEDIUM $MEDIUM $XLARGE;
+      grid-gap: $MIDLARGE;
+      padding: $MIDLARGE $MEDIUM $XLARGE;
     }
     &__form {
       &-title {
         @include font-type($MAIN_FONT, $MIDLARGE, bold);
 
-        margin: $SMALL 0;
+        margin: $MEDIUM 0;
         text-align: center;
       }
     }

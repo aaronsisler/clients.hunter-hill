@@ -9,39 +9,14 @@ const teamMembers = [
     title: "RPh Executive Director"
   },
   {
-    imgSrc: `${CDN_URL}/rhonda_boyd_todd.jpg`,
-    name: "Rhonda Boyd Todd",
+    imgSrc: `${CDN_URL}/terri_allen.jpg`,
+    name: "Terri Allen",
     title: "Administrator"
-  },
-  {
-    imgSrc: `${CDN_URL}/morticia_butcher.jpg`,
-    name: "Morticia Butcher",
-    title: "Resident Care Director"
-  },
-  {
-    imgSrc: `${CDN_URL}/yolanda_thatch.jpg`,
-    name: "Yolanda Thatch",
-    title: "Special Care Unit Director"
-  },
-  {
-    imgSrc: `${CDN_URL}/glen_needham.jpg`,
-    name: "Glen Needham",
-    title: "Clinical Supervising RN"
-  },
-  {
-    imgSrc: `${CDN_URL}/marie_bell.jpg`,
-    name: "Marie Bell",
-    title: "Transportation Director"
   },
   {
     imgSrc: `${CDN_URL}/audrey_clark.jpg`,
     name: "Audrey Clark",
     title: "Admission/Marketing Director"
-  },
-  {
-    imgSrc: `${CDN_URL}/wes_newby.jpg`,
-    name: "Wes Newby",
-    title: "Dietary & Environmental Service Director"
   },
   {
     imgSrc: `${CDN_URL}/suzie_nixon.jpg`,
@@ -52,11 +27,6 @@ const teamMembers = [
     imgSrc: `${CDN_URL}/adela_pena.jpg`,
     name: "Adela Pena",
     title: "Quality Assurance Director"
-  },
-  {
-    imgSrc: `${CDN_URL}/jennifer_white.jpg`,
-    name: "Jennifer White",
-    title: "Activity Director"
   }
 ];
 

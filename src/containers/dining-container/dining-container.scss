@@ -10,7 +10,8 @@
       }
     }
     &__content {
-      padding: 0 $MEDIUM $LARGE;
+      // padding: 0 $MEDIUM $LARGE;
+      padding: $MEDIUM $MEDIUM $LARGE;
     }
     &__title {
       @include font-type($MAIN_FONT, $LARGE, bold);
@@ -37,7 +38,8 @@
       }
     }
     &__content {
-      padding: 0 15% $XLARGE;
+      // padding: 0 15% $XLARGE;
+      padding: $LARGE 15% $XLARGE;
     }
   }
 }
@@ -46,7 +48,8 @@
 @media only screen and (min-width: $LARGE_SCREEN) {
   .dining-container {
     &__content {
-      padding: 0 25% $XLARGE;
+      // padding: 0 25% $XLARGE;
+      padding: $MIDLARGE 25% $XLARGE;
     }
   }
 }

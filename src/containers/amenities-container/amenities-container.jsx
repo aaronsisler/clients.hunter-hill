@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../../atoms/image";
+// import Image from "../../atoms/image";
 import amenities from "../../content/amenities";
 
 import "./amenities-container.scss";
@@ -17,13 +17,13 @@ const AmenitiesContainer = () => (
     <div className="amenities-container__list">
       {amenities.map(({ content, image, title }, index) => (
         <section className="amenities-container__list-item" key={index}>
-          {image && (
+          {/* {image && (
             <Image
               altText={image.altText}
               className="amenities-container__list-item-image"
               src={image.src}
             />
-          )}
+          )} */}
           <h3 className="amenities-container__list-item-title">{title}</h3>
           <p className="amenities-container__list-item-content">{content}</p>
         </section>

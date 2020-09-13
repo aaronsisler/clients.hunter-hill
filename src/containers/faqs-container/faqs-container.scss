@@ -20,15 +20,12 @@
     p {
       margin: $SMALL 0 $MEDIUM 0;
     }
-    hr {
-      margin-bottom: $SMALL;
-    }
     &__questions-list {
       padding-right: $XSMALL;
       dt {
         @include font-type($MAIN_FONT, $MEDIUM, bold);
 
-        margin: $SMALL 0 $XSMALL;
+        margin: $MIDLARGE 0 $SMALL;
       }
     }
   }

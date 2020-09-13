@@ -42,7 +42,7 @@ const MemoryCareContainer = () => (
         of interesting residents and fun-filled activities that help them
         continue to live with purpose and meaning.
       </p>
-      <h2 className="memory-care-container__images-title">Our rooms</h2>
+      {/* <h2 className="memory-care-container__images-title">Our rooms</h2>
       <div className="memory-care-container__model-images">
         {modelRoomImages.map((image, index) => (
           <Image
@@ -51,7 +51,7 @@ const MemoryCareContainer = () => (
             {...image}
           />
         ))}
-      </div>
+      </div> */}
     </div>
   </div>
 );
