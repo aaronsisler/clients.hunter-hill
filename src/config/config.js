@@ -15,7 +15,7 @@ export const MARKETING_CONTACT_EMAIL = "waterbrooke.marketing@gmail.com";
 // export const MARKETING_CONTACT_EMAIL = "aaron.sisler@eandbsolutions.com";
 
 // Phone number
-export const CONTACT_PHONE_NUMBER = "(252) 443-7144";
+export const CONTACT_PHONE_NUMBER = "(252)-210-3751";
 
 // Services Gateway
 export const SERVICES_GATEWAY_URL = "https://services.eandbsolutions.com/prod";

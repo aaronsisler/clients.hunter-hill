@@ -16,7 +16,7 @@ const teamMembers = [
   {
     imgSrc: `${CDN_URL}/audrey_clark.jpg`,
     name: "Audrey Clark",
-    title: "Admission/Marketing Director"
+    title: "Marketing Director"
   },
   {
     imgSrc: `${CDN_URL}/suzie_nixon.jpg`,

@@ -50,6 +50,11 @@ const amenities = [
   },
   {
     content:
+      "Hunter Hill offers hospice care through third party agencies to allow for a peaceful transition.",
+    title: "Hospice Care"
+  },
+  {
+    content:
       "Hunter Hill is easily navigated and accessible for individuals using wheelchairs and other assistive devices.",
     title: "Handicap Accessibility"
   }

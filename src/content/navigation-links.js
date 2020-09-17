@@ -13,8 +13,8 @@ const navigationLinks = [
     key: "services",
     title: "Our Services",
     links: [
-      { title: "Assisted Living", href: "/assisted-living" },
-      { title: "Memory Care", href: "/memory-care" }
+      { title: "Assisted Living", href: "/assisted-living" }
+      // { title: "Memory Care", href: "/memory-care" }
     ]
   },
   {
