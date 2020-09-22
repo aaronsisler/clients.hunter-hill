@@ -1,6 +1,6 @@
-//Services Gateway Config
-// Beta
-// export const SERVICES_API_KEY = "3Zt2rewSQh2FJCLkZeQPC42glRNBnvpZ5ef4aKlC";
+/* eslint-disable import/prefer-default-export */
+import getConfig from "next/config";
+const { publicRuntimeConfig } = getConfig();
 
-// Prod
-export const SERVICES_API_KEY = "HdOvIATiEU28qyR3glui06brJdR1BCG55otFffqX";
+//Services Gateway Config
+export const SERVICES_API_KEY = publicRuntimeConfig.SERVICES_API_KEY;
