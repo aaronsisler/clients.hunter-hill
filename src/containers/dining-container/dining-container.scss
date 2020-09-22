@@ -10,7 +10,8 @@
       }
     }
     &__content {
-      padding: 0 $MEDIUM $LARGE;
+      // padding: 0 $MEDIUM $LARGE;
+      padding: $MEDIUM $MEDIUM $LARGE;
     }
     &__title {
       @include font-type($MAIN_FONT, $LARGE, bold);
@@ -29,7 +30,7 @@
 }
 
 //Medium screens - TABLET
-@media only screen and (min-width: $mediumScreen) {
+@media only screen and (min-width: $MEDIUM_SCREEN) {
   .dining-container {
     &__splash {
       &-image {
@@ -37,24 +38,26 @@
       }
     }
     &__content {
-      padding: 0 15% $XLARGE;
+      // padding: 0 15% $XLARGE;
+      padding: $LARGE 15% $XLARGE;
     }
   }
 }
 
 //Large screens - DESKTOP
-@media only screen and (min-width: $largeScreen) {
+@media only screen and (min-width: $LARGE_SCREEN) {
   .dining-container {
     &__content {
-      padding: 0 25% $XLARGE;
+      // padding: 0 25% $XLARGE;
+      padding: $MIDLARGE 25% $XLARGE;
     }
   }
 }
 
 //XLarge screens
-@media only screen and (min-width: $xLargeScreen) {
+@media only screen and (min-width: $XLARGE_SCREEN) {
 }
 
 //XXLarge screens
-@media only screen and (min-width: $xxLargeScreen) {
+@media only screen and (min-width: $XXLARGE_SCREEN) {
 }

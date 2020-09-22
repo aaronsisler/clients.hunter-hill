@@ -1,6 +1,8 @@
 import React from "react";
-import Image from "../../atoms/image";
-import { activities, eventImages } from "../../content/activities";
+import { activities } from "../../content/activities";
+
+// import Image from "../../atoms/image";
+// import { activities, eventImages } from "../../content/activities";
 
 import "./activities-container.scss";
 
@@ -12,12 +14,12 @@ const ActivitiesContainer = () => (
       </h1>
       <p>
         By creating new memories together, we experience close connections that
-        feel like family. At Waterbrooke, you will have the opportunity to find
+        feel like family. At Hunter Hill, you will have the opportunity to find
         the balance that’s right for you. This might include taking part in
         fitness classes, art activities, or our popular cooking classes.
       </p>
     </div>
-    <div className="activities-container__images">
+    {/* <div className="activities-container__images">
       {eventImages.map((eventImage, index) => (
         <Image
           className="activities-container__image"
@@ -25,8 +27,8 @@ const ActivitiesContainer = () => (
           {...eventImage}
         />
       ))}
-    </div>
-    <hr />
+    </div> */}
+    {/* <hr /> */}
     <div className="activities-container__activities">
       <h2 className="activities-container__sec-title">Activities</h2>
       <ul className="activities-container__list">

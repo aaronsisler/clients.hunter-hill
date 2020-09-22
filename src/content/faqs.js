@@ -13,7 +13,7 @@ const faqs = [
   {
     question: "Are pets allowed in assisted living?",
     answer:
-      "Waterbrooke currently does not accept pets but will allow service dogs such as seeing-eye dogs or dogs which detect seizures. A pet deposit must be made. The owner must either present insurance or ensure vet bills will be covered as well as have an account set up for grooming costs of the dog."
+      "Hunter Hill currently does not accept pets but will allow service dogs such as seeing-eye dogs or dogs which detect seizures. A pet deposit must be made. The owner must either present insurance or ensure vet bills will be covered as well as have an account set up for grooming costs of the dog."
   },
   {
     question: "Are visitors allowed over night?",
@@ -37,7 +37,7 @@ const faqs = [
       "Yes, physical therapy can be done in assisted living through a third party care provider three days per week."
   },
   {
-    question: "Does Waterbrooke offer any in-house medical services?",
+    question: "Does Hunter Hill offer any in-house medical services?",
     answer:
       "Yes, we have an in-house physician and psychiatrist. We contract with Caring Hands for labs and blood work to be drawn in house. Also, we utilize services of Albemarle Home Care & Hospice and Community Home Care & Hospice for therapy, wound care, and hospice care in-house."
   }

@@ -10,7 +10,7 @@ const LeadershipContainer = () => (
       <h1 className="leadership-container__title">Getting to know your team</h1>
       <p>
         Your family member seeing a familiar face each day is one of the joys of
-        living at Waterbrooke.
+        living at Hunter Hill.
       </p>
       <div className="leadership-container__team-members">
         {leadership.map((teamMember, index) => (

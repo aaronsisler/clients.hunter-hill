@@ -2,7 +2,7 @@ import React from "react";
 import { CDN_URL } from "../../config";
 
 import "./application-download.scss";
-const fileName = "waterbrooke-employment-application.pdf";
+const fileName = "hunter_hill_employment_application.pdf";
 
 const ApplicationDownload = () => (
   <div className="application-download">

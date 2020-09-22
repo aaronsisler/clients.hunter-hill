@@ -27,7 +27,7 @@ const AssistedLivingContainer = () => (
         Our services make the difference
       </h1>
       <p>
-        At Waterbrooke, we offer much more than a place to stay. We offer a
+        At Hunter Hill, we offer much more than a place to stay. We offer a
         place to live well. Our residents share some common values: to be
         recognized as individuals, to lead lives with a sense of purpose, and to
         maintain connections with people and interests that are meaningful to
@@ -45,7 +45,7 @@ const AssistedLivingContainer = () => (
         maintenance calls or repairs. Simply enjoy the most remarkable parts of
         the life you lead.
       </p>
-      <h2 className="assisted-living-container__images-title">Our rooms</h2>
+      {/* <h2 className="assisted-living-container__images-title">Our rooms</h2>
       <div className="assisted-living-container__model-images">
         {modelRoomImages.map((image, index) => (
           <Image
@@ -54,7 +54,7 @@ const AssistedLivingContainer = () => (
             {...image}
           />
         ))}
-      </div>
+      </div> */}
       <hr />
       <h2 className="assisted-living-container__list-title">What we provide</h2>
       <ul className="assisted-living-container__list">

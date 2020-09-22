@@ -44,7 +44,7 @@ const WhyAssistedLivingContainer = () => (
       <p>
         Residents are assessed when they move in, so they can get an
         individualized service plan to meet specific needs and make their care
-        truly personal. Some assisted living communities, such as Waterbrooke,
+        truly personal. Some assisted living communities, such as Hunter Hill,
         are also licensed to provide memory care. These will often have separate
         dining rooms and menus based on residents’ nutritional needs.&nbsp;
         <Hyperlink

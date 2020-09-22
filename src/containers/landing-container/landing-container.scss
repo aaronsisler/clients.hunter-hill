@@ -9,24 +9,26 @@
       object-fit: cover;
     }
     &__content {
-      padding: $MEDIUM;
+      padding: 0 $MEDIUM $MEDIUM;
       &-title {
         @include font-type($MAIN_FONT, $LARGE, bold);
+
+        margin: $LARGE 0;
       }
       p {
-        margin: $SMALL 0;
+        margin: $SMALL 0 $MEDIUM;
       }
       &-sec-title {
         @include font-type($MAIN_FONT, $MIDLARGE, bold);
 
-        margin: $SMALL 0;
+        margin-bottom: $MIDLARGE;
       }
     }
   }
 }
 
 //Medium screens - TABLET
-@media only screen and (min-width: $mediumScreen) {
+@media only screen and (min-width: $MEDIUM_SCREEN) {
   .landing-container {
     &__splash-image {
       height: 65vh;
@@ -36,19 +38,25 @@
       object-fit: cover;
     }
     &__content {
-      padding: $XLARGE 15%;
+      padding: 0 15% $MIDLARGE;
+      &-title {
+        margin: $LARGE 0;
+      }
+      p {
+        margin: $SMALL 0 $MEDIUM;
+      }
     }
   }
 }
 
 //Large screens - DESKTOP
-@media only screen and (min-width: $largeScreen) {
+@media only screen and (min-width: $LARGE_SCREEN) {
 }
 
 //XLarge screens
-@media only screen and (min-width: $xLargeScreen) {
+@media only screen and (min-width: $XLARGE_SCREEN) {
 }
 
 //XXLarge screens
-@media only screen and (min-width: $xxLargeScreen) {
+@media only screen and (min-width: $XXLARGE_SCREEN) {
 }

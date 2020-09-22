@@ -1,19 +1,19 @@
 import React from "react";
-import Image from "../../atoms/image";
-import { getCdnUrl } from "../../utils";
+// import Image from "../../atoms/image";
+// import { getCdnUrl } from "../../utils";
 
 import "./dining-container.scss";
 
-const CDN_URL = getCdnUrl("/dining");
+// const CDN_URL = getCdnUrl("/dining");
 
-const splashImage = {
-  altText: "Dining hall with tables and chairs",
-  src: `${CDN_URL}/dining-container.jpg`
-};
+// const splashImage = {
+//   altText: "Dining hall with tables and chairs",
+//   src: `${CDN_URL}/dining-container.jpg`
+// };
 
 const DiningContainer = () => (
   <div className="dining-container">
-    <Image className="dining-container__splash-image" {...splashImage} />
+    {/* <Image className="dining-container__splash-image" {...splashImage} /> */}
     <div className="dining-container__content">
       <h1 className="dining-container__title">Home-cooked meals every day</h1>
       <p>
