@@ -33,7 +33,11 @@ export const sendEmail = async (data, done, fail) => {
 };
 
 export const sendEmailWithAttachment = async (data, done, fail) => {
-  const emailData = { pointOfContactEmail: HR_CONTACT_EMAIL, ...data };
+  const emailData = {
+    clientName: CLIENT_NAME,
+    pointOfContactEmail: HR_CONTACT_EMAIL,
+    ...data
+  };
 
   try {
     await axios.post(
