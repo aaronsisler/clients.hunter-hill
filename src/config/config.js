@@ -8,11 +8,11 @@ export const GOOGLE_MAPS_LOCATION =
   "https://www.google.com/maps/dir/35.668317,-78.8495883/Hunter+Hill+Assisted+Living,+891+Noell+Ln,+Rocky+Mount,+NC+27804/@35.8224906,-78.9174346";
 
 // Contact Emails
-// export const HR_CONTACT_EMAIL = "business.ofc.hr@gmail.com ";
-// export const MARKETING_CONTACT_EMAIL = "waterbrooke.marketing@gmail.com";
+export const HR_CONTACT_EMAIL = "business.ofc.hr@gmail.com ";
+export const MARKETING_CONTACT_EMAIL = "waterbrooke.marketing@gmail.com";
 //Testing
-export const HR_CONTACT_EMAIL = "aaron.sisler@eandbsolutions.com";
-export const MARKETING_CONTACT_EMAIL = "aaron.sisler@eandbsolutions.com";
+// export const HR_CONTACT_EMAIL = "aaron.sisler@eandbsolutions.com";
+// export const MARKETING_CONTACT_EMAIL = "aaron.sisler@eandbsolutions.com";
 
 // Client Name
 export const CLIENT_NAME = "Hunter Hill";
@@ -21,4 +21,5 @@ export const CLIENT_NAME = "Hunter Hill";
 export const CONTACT_PHONE_NUMBER = "(252)-210-3751";
 
 // Services Gateway
+// export const SERVICES_GATEWAY_URL = "https://services.eandbsolutions.com/beta";
 export const SERVICES_GATEWAY_URL = "https://services.eandbsolutions.com/prod";
