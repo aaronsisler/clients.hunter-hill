@@ -24,8 +24,6 @@ jobs:
 
       - name: Build
         run: npm run build
-        env:
-          NEXT_PUBLIC_SERVICES_API_KEY: ${{ secrets.NEXT_PUBLIC_SERVICES_API_KEY }}
 
       - name: Deploy
         uses: serverless/github-action@master
