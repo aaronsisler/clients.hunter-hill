@@ -8,7 +8,8 @@ import {
 } from "../config";
 
 const headers = {
-  "Content-Type": "application/json"
+  "Content-Type": "application/json",
+  "api-version": 2.0
 };
 
 const emailOptions = { headers };
