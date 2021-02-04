@@ -17,6 +17,11 @@ export const MARKETING_CONTACT_EMAIL = "waterbrooke.marketing@gmail.com";
 // Client Name
 export const CLIENT_NAME = "Hunter Hill";
 
+// Application
+export const APPLICATON_PDF_FILENAME = "hunter-hill-employment-application.pdf";
+export const APPLICATION_ONLINE_URL =
+  "https://docs.google.com/forms/d/e/1FAIpQLSf9TYk6RDnbZwzjZal7xKFyFMIPVAUgIm6kdR21tuwn0hMXJQ/viewform";
+
 // Phone number
 export const CONTACT_PHONE_NUMBER = "(252)-210-3751";
 

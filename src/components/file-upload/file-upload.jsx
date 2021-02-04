@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import "./file-upload.scss";
 
-const FileUpload = ({ onFileUpload }) => (
+const FileUpload = ({ buttonText, onFileUpload }) => (
   <div className="file-upload">
     <input
       id="file-upload__input"
@@ -12,12 +12,13 @@ const FileUpload = ({ onFileUpload }) => (
       onChange={onFileUpload}
     />
     <label htmlFor="file-upload__input" className="file-upload__label">
-      Upload Application
+      {buttonText}
     </label>
   </div>
 );
 
 FileUpload.propTypes = {
+  buttonText: PropTypes.string.isRequired,
   onFileUpload: PropTypes.func.isRequired
 };
 
