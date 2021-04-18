@@ -9,16 +9,6 @@ const teamMembers = [
     title: "RPh Executive Director"
   },
   {
-    imgSrc: `${CDN_URL}/terri_allen.jpg`,
-    name: "Terri Allen",
-    title: "Administrator"
-  },
-  {
-    imgSrc: `${CDN_URL}/audrey_clark.jpg`,
-    name: "Audrey Clark",
-    title: "Marketing Director"
-  },
-  {
     imgSrc: `${CDN_URL}/suzie_nixon.jpg`,
     name: "Suzie Nixon",
     title: "Human Resource Director"
