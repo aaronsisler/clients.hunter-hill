@@ -4,8 +4,10 @@
 //Small screens - MOBILE
 @media only screen {
   .landingContainer {
+    padding-bottom: $LARGE;
     &__splashImage {
       height: 50vh;
+      margin-bottom: $LARGE;
       object-fit: cover;
     }
     &__banner {
@@ -19,16 +21,20 @@
       }
     }
     &__content {
+      margin-inline: auto;
+      width: fit-content;
       padding: $MEDIUM;
+      padding-bottom: 0;
       &Title {
         @include font-type($MAIN_FONT, $LARGE, bold);
-      }
-      p {
-        margin: $SMALL 0;
       }
       &SecTitle {
         @include font-type($MAIN_FONT, $MIDLARGE, bold);
 
+        margin: $SMALL 0;
+      }
+      p {
+        max-width: $MAX_TEXT_WIDTH;
         margin: $SMALL 0;
       }
     }
@@ -38,6 +44,7 @@
 //Medium screens - TABLET
 @media only screen and (min-width: $MEDIUM_SCREEN) {
   .landingContainer {
+    padding-bottom: $XXLARGE;
     &__splashImage {
       height: 60vh;
     }
@@ -46,7 +53,7 @@
       object-fit: cover;
     }
     &__content {
-      padding: $XLARGE 15%;
+      padding-inline: 15%;
     }
   }
 }
