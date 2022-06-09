@@ -5,7 +5,6 @@ import PropTypes from "prop-types";
 import styles from "./image.module.scss";
 
 const Image = ({ alt, className, src }) => (
-  // eslint-disable-next-line @next/next/no-img-element
   <img className={cn(styles.image, className)} src={src} alt={alt} />
 );
 

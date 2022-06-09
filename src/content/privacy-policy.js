@@ -1,8 +1,7 @@
 import React from "react";
 /* eslint-disable max-len */
-
-const privacyPolicy = {
-  companyWebsite: "waterbrooke.net",
+export default {
+  companyWebsite: "hhseniorliving.com",
   policies: [
     {
       isBold: false,
@@ -262,5 +261,3 @@ const privacyPolicy = {
     { isBold: true, text: "aaron.sisler@eandbsolutions.com" }
   ]
 };
-
-export default privacyPolicy;

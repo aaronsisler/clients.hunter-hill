@@ -13,13 +13,13 @@ const navigationLinks = [
     key: "services",
     title: "Our Services",
     links: [
-      { title: "Assisted Living", href: "/assisted-living" },
-      { title: "Memory Care", href: "/memory-care" }
+      { title: "Assisted Living", href: "/assisted-living" }
+      // { title: "Memory Care", href: "/memory-care" }
     ]
   },
   {
     key: "life",
-    title: "Waterbrooke Life",
+    title: "Hunter Hill Life",
     links: [
       { title: "A Day in the Life", href: "/daily-life" },
       { title: "Activities", href: "/activities" },

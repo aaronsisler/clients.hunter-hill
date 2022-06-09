@@ -5,7 +5,7 @@ import { CDN_URL } from "../../config";
 import styles from "./logo.module.scss";
 
 const logo = {
-  alt: "Waterbrooke Assisted Living",
+  alt: "Hunter Hill Assisted Living",
   src: `${CDN_URL}/logo.png`,
 };
 

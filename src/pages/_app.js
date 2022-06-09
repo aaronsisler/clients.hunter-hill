@@ -12,7 +12,7 @@ class MyApp extends App {
     return (
       <>
         <Head>
-          <title>Waterbrooke Assisted Living</title>
+          <title>Hunter Hill Assisted Living</title>
           <meta
             name="viewport"
             content="initial-scale=1.0, width=device-width"
