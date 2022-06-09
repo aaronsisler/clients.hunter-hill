@@ -4,13 +4,8 @@
 //Small screens - MOBILE
 @media only screen {
   .diningContainer {
-    &__splash {
-      &Image {
-        height: 100%;
-      }
-    }
     &__content {
-      padding: 0 $MEDIUM $LARGE;
+      padding: $LARGE;
     }
     &__title {
       @include font-type($MAIN_FONT, $LARGE, bold);
@@ -31,13 +26,11 @@
 //Medium screens - TABLET
 @media only screen and (min-width: $MEDIUM_SCREEN) {
   .diningContainer {
-    &__splash {
-      &Image {
-        @include headerImage(0 15%);
-      }
-    }
     &__content {
       padding: 0 15% $XLARGE;
+    }
+    &__title {
+      margin-top: $XLARGE;
     }
   }
 }

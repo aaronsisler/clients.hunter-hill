@@ -4,25 +4,32 @@
 //Small screens - MOBILE
 @media only screen {
   .activitiesContainer {
-    padding: $MEDIUM $MEDIUM $LARGE;
+    padding: $LARGE;
     &__header {
+      width: fit-content;
+      margin-inline: auto;
       &Title {
         @include font-type($MAIN_FONT, $LARGE, bold);
+
+        margin-bottom: $MEDIUM;
+      }
+      p {
+        max-width: $MAX_TEXT_WIDTH;
       }
     }
-    &__images {
-      margin: $MEDIUM 0;
-    }
-    &__image {
-      margin-bottom: $MEDIUM;
-    }
     hr {
-      margin: $SMALL 0;
+      margin-block: $LARGE;
+    }
+    &__activities {
+      width: fit-content;
+
+      margin-inline: auto;
     }
     &__secTitle {
       @include font-type($MAIN_FONT, $MIDLARGE, bold);
 
       margin: $SMALL 0;
+      margin-bottom: $MEDIUM;
     }
     &__list {
       margin-left: $MEDIUM;
@@ -41,19 +48,6 @@
     &__header,
     &__activities {
       padding: 0 15%;
-    }
-    &__images {
-      display: grid;
-      grid-column-gap: $SMALL;
-      grid-template-columns: repeat(3, 1fr);
-      align-items: center;
-      justify-content: center;
-      margin: $LARGE 0;
-      padding: 0 $XXLARGE;
-    }
-    &__image {
-      max-height: 350px;
-      margin-bottom: 0;
     }
     hr {
       margin: $XLARGE 5%;

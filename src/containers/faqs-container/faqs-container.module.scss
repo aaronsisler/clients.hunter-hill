@@ -4,13 +4,13 @@
 //Small screens - MOBILE
 @media only screen {
   .faqsContainer {
-    &__splash {
-      &Image {
-        height: 100%;
-      }
+    &__splashImage {
+      height: 100%;
     }
     &__content {
+      width: fit-content;
       padding: 0 $MEDIUM $LARGE;
+      margin-inline: auto;
     }
     &__title {
       @include font-type($MAIN_FONT, $LARGE, bold);
@@ -18,12 +18,14 @@
       margin-top: $MEDIUM;
     }
     p {
+      max-width: $MAX_TEXT_WIDTH;
       margin: $SMALL 0 $MEDIUM 0;
     }
     hr {
       margin-block: $LARGE;
     }
     &__questionsList {
+      max-width: $MAX_TEXT_WIDTH;
       padding-right: $XSMALL;
       dt {
         @include font-type($MAIN_FONT, $MEDIUM, bold);
@@ -37,10 +39,8 @@
 //Medium screens - TABLET
 @media only screen and (min-width: $MEDIUM_SCREEN) {
   .faqsContainer {
-    &__splash {
-      &Image {
-        @include headerImage(0 15%);
-      }
+    &__splashImage {
+      @include headerImage(0 15%);
     }
     &__content {
       padding: 0 15% $XLARGE;

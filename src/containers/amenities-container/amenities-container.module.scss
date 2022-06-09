@@ -4,8 +4,9 @@
 //Small screens - MOBILE
 @media only screen {
   .amenitiesContainer {
-    padding: $MEDIUM;
+    padding: $LARGE;
     &__header {
+      margin-bottom: $LARGE;
       h1 {
         @include font-type($MAIN_FONT, $LARGE, bold);
       }
@@ -16,14 +17,11 @@
     &__secTitle {
       @include font-type($MAIN_FONT, $MIDLARGE, bold);
 
-      margin: $SMALL 0;
+      margin: $SMALL 0 $MEDIUM;
     }
     &__list {
       &Item {
-        margin-bottom: $XLARGE;
-        &Image {
-          margin-bottom: $MEDIUM;
-        }
+        margin-bottom: $MIDLARGE;
         &Title {
           @include font-type($MAIN_FONT, $MEDIUM, bold);
         }
@@ -40,12 +38,7 @@
   .amenitiesContainer {
     padding: $MEDIUM 15% $XLARGE;
     &__list {
-      max-width: 700px;
-      &Item {
-        &Image {
-          max-width: 350px;
-        }
-      }
+      max-width: $MAX_TEXT_WIDTH;
     }
   }
 }
@@ -54,11 +47,6 @@
 @media only screen and (min-width: $LARGE_SCREEN) {
   .amenitiesContainer {
     padding: $MEDIUM 25% $XLARGE;
-    &__section {
-      &Image {
-        max-width: 450px;
-      }
-    }
   }
 }
 

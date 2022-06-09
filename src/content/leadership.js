@@ -6,18 +6,18 @@ const teamMembers = [
   {
     imgSrc: `${CDN_URL}/dana_rabon.jpg`,
     name: "Dana Rabon",
-    title: "RPh Executive Director"
-  },
-  {
-    imgSrc: `${CDN_URL}/suzie_nixon.jpg`,
-    name: "Suzie Nixon",
-    title: "Human Resource Director"
+    title: "RPh Executive Director",
   },
   {
     imgSrc: `${CDN_URL}/adela_pena.jpg`,
     name: "Adela Pena",
-    title: "Quality Assurance Director"
-  }
+    title: "Administrator",
+  },
+  {
+    imgSrc: `${CDN_URL}/suzie_nixon.jpg`,
+    name: "Suzie Nixon",
+    title: "Human Resource Director",
+  },
 ];
 
 export default teamMembers;

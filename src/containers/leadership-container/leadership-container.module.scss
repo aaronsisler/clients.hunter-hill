@@ -10,7 +10,7 @@
     &__title {
       @include font-type($MAIN_FONT, $LARGE, bold);
 
-      margin-top: $MEDIUM;
+      margin-top: $LARGE;
     }
     p {
       margin: $LARGE 0 $XLARGE 0;

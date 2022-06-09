@@ -4,14 +4,15 @@
 //Small screens - MOBILE
 @media only screen {
   .assistedLivingContainer {
-    &__splash {
-      &Image {
-        height: 100%;
-      }
+    &__splashImage {
+      height: 100%;
     }
     &__content {
+      width: fit-content;
       padding: 0 $MEDIUM $LARGE;
+      margin-inline: auto;
       p {
+        max-width: $MAX_TEXT_WIDTH;
         margin: $SMALL 0 0;
       }
       hr {
@@ -61,10 +62,8 @@
 //Medium screens - TABLET
 @media only screen and (min-width: $MEDIUM_SCREEN) {
   .assistedLivingContainer {
-    &__splash {
-      &Image {
-        @include headerImage(0 15%);
-      }
+    &__splashImage {
+      @include headerImage(0 15%);
     }
     &__content {
       padding: 0 15% $XLARGE;

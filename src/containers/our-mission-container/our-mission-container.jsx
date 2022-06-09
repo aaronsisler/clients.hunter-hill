@@ -8,7 +8,7 @@ import styles from "./our-mission-container.module.scss";
 const CDN_URL = getCdnUrl("/our-mission");
 
 const headerImage = {
-  alt: "Staff member hugging a resident",
+  alt: "Staff member holding hands with resident",
   src: `${CDN_URL}/our-mission-container.jpg`,
 };
 
@@ -16,7 +16,8 @@ const OurMissionContainer = () => (
   <div className={styles.ourMissionContainer}>
     <Image
       className={styles.ourMissionContainer__headerImage}
-      {...headerImage}
+      alt={headerImage.alt}
+      src={headerImage.src}
     />
     <div className={styles.ourMissionContainer__content}>
       <h1 className={styles.ourMissionContainer__title}>

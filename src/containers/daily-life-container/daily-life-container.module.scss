@@ -10,7 +10,9 @@
       }
     }
     &__content {
+      width: fit-content;
       padding: 0 $MEDIUM $LARGE;
+      margin-inline: auto;
     }
     &__title {
       @include font-type($MAIN_FONT, $LARGE, bold);
@@ -18,6 +20,7 @@
       margin-top: $MEDIUM;
     }
     p {
+      max-width: $MAX_TEXT_WIDTH;
       margin: $SMALL 0 $MEDIUM 0;
     }
     &__topic {

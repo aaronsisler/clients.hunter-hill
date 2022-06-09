@@ -17,17 +17,6 @@ const ActivitiesContainer = () => (
         fitness classes, art activities, or our popular cooking classes.
       </p>
     </div>
-    <div className={styles.activitiesContainer__images}>
-      {eventImages.map((eventImage, index) => (
-        <Image
-          className={styles.activitiesContainer__image}
-          key={index}
-          alt={eventImage.alt}
-          src={eventImage.src}
-          {...eventImage}
-        />
-      ))}
-    </div>
     <hr />
     <div className={styles.activitiesContainer__activities}>
       <h2 className={styles.activitiesContainer__secTitle}>Activities</h2>

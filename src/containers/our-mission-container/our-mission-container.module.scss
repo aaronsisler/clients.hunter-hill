@@ -25,6 +25,7 @@
       margin-top: $MEDIUM;
     }
     p {
+      max-width: $MAX_TEXT_WIDTH;
       margin: $SMALL 0 $MEDIUM 0;
     }
   }
