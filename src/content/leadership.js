@@ -6,18 +6,28 @@ const teamMembers = [
   {
     imgSrc: `${CDN_URL}/dana_rabon.jpg`,
     name: "Dana Rabon",
-    title: "RPh Executive Director"
+    title: "RPh Executive Director",
+  },
+  {
+    imgSrc: `${CDN_URL}/rhonda_boyd_todd.jpg`,
+    name: "Rhonda Boyd Todd",
+    title: "Administrator",
+  },
+  {
+    imgSrc: `${CDN_URL}/audrey_clark.jpg`,
+    name: "Audrey Clark",
+    title: "Asst. Administrator/Special Care Unit Director",
+  },
+  {
+    imgSrc: `${CDN_URL}/marie_bell.jpg`,
+    name: "Marie Bell",
+    title: "Transportation Director",
   },
   {
     imgSrc: `${CDN_URL}/suzie_nixon.jpg`,
     name: "Suzie Nixon",
-    title: "Human Resource Director"
+    title: "Human Resource Director",
   },
-  {
-    imgSrc: `${CDN_URL}/adela_pena.jpg`,
-    name: "Adela Pena",
-    title: "Quality Assurance Director"
-  }
 ];
 
 export default teamMembers;

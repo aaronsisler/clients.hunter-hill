@@ -1,17 +1,25 @@
-# Hunter Hill Assisted Living
+# clients.hunter-hill
 
-Code base for Hunter Hill Assisted Living
+## Development
 
-## Deving steps:
-
-1.  Install packages using npm
+To run locally:
 
 ```bash
-        npm install
+npm ci
+npm run dev
 ```
 
-1.  Start NextJS dev server which runs on http://localhost:3000
+## Deployment
+
+This is taken care of through the use of Github Actions (GHA).
+
+### Deploying from local
+
+1. You will need to have the AWS CLI installed.
+
+1. You will need to have the following environment properties set when deploying from command line:
 
 ```bash
-       npm run start
+export AWS_ACCESS_KEY_ID=taco
+export AWS_SECRET_ACCESS_KEY=moreTaco
 ```

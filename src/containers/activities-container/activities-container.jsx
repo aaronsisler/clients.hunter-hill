@@ -1,39 +1,37 @@
 import React from "react";
-import { activities } from "../../content/activities";
+import { Image } from "../../atoms/image";
+import { activities, eventImages } from "../../content/activities";
 
-// import Image from "../../atoms/image";
-// import { activities, eventImages } from "../../content/activities";
-
-import "./activities-container.scss";
+import styles from "./activities-container.module.scss";
 
 const ActivitiesContainer = () => (
-  <div className="activities-container">
-    <div className="activities-container__header">
-      <h1 className="activities-container__header-title">
+  <div className={styles.activitiesContainer}>
+    <div className={styles.activitiesContainer__header}>
+      <h1 className={styles.activitiesContainer__headerTitle}>
         Making new memories
       </h1>
       <p>
         By creating new memories together, we experience close connections that
-        feel like family. At Hunter Hill, you will have the opportunity to find
+        feel like family. At Waterbrooke, you will have the opportunity to find
         the balance that’s right for you. This might include taking part in
         fitness classes, art activities, or our popular cooking classes.
       </p>
     </div>
-    {/* <div className="activities-container__images">
+    <div className={styles.activitiesContainer__images}>
       {eventImages.map((eventImage, index) => (
         <Image
-          className="activities-container__image"
+          className={styles.activitiesContainer__image}
           key={index}
           {...eventImage}
         />
       ))}
-    </div> */}
-    {/* <hr /> */}
-    <div className="activities-container__activities">
-      <h2 className="activities-container__sec-title">Activities</h2>
-      <ul className="activities-container__list">
+    </div>
+    <hr />
+    <div className={styles.activitiesContainer__activities}>
+      <h2 className={styles.activitiesContainer__secTitle}>Activities</h2>
+      <ul className={styles.activitiesContainer__list}>
         {activities.map((activity, index) => (
-          <li key={index} className="activities-container__list-item">
+          <li key={index} className={styles.activitiesContainer__listItem}>
             {activity}
           </li>
         ))}
