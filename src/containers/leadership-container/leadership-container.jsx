@@ -12,7 +12,7 @@ const LeadershipContainer = () => (
       </h1>
       <p>
         Your family member seeing a familiar face each day is one of the joys of
-        living at Waterbrooke.
+        living at Hunter Hill.
       </p>
       <div className={styles.leadershipContainer__teamMembers}>
         {leadership.map((teamMember, index) => (

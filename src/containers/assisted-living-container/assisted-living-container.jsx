@@ -20,14 +20,15 @@ const AssistedLivingContainer = () => (
   <div className={styles.assistedLivingContainer}>
     <Image
       className={styles.assistedLivingContainer__splashImage}
-      {...splashImage}
+      alt={splashImage.alt}
+      src={splashImage.src}
     />
     <div className={styles.assistedLivingContainer__content}>
       <h1 className={styles.assistedLivingContainer__title}>
         Our services make the difference
       </h1>
       <p>
-        At Waterbrooke, we offer much more than a place to stay. We offer a
+        At Hunter Hill, we offer much more than a place to stay. We offer a
         place to live well. Our residents share some common values: to be
         recognized as individuals, to lead lives with a sense of purpose, and to
         maintain connections with people and interests that are meaningful to
@@ -36,9 +37,9 @@ const AssistedLivingContainer = () => (
       <h2 className={styles.assistedLivingContainer__secTitle}>Live freely</h2>
       <p>
         Our Assisted Living program is designed to provide the perfect balance
-        of support and independence. Whether you’re a social butterfly or prefer
-        the peace and quiet of your own space, our community provides life
-        engagement programs to meet your needs.
+        of support and independence. Whether you&apos;re a social butterfly or
+        prefer the peace and quiet of your own space, our community provides
+        life engagement programs to meet your needs.
       </p>
       <p>
         Live your life as you always have… minus the mundane. No daily upkeep,
@@ -51,7 +52,8 @@ const AssistedLivingContainer = () => (
           <Image
             key={index}
             className={styles.assistedLivingContainer__modelImage}
-            {...image}
+            alt={image.alt}
+            src={image.src}
           />
         ))}
       </div>
@@ -68,7 +70,7 @@ const AssistedLivingContainer = () => (
       </ul>
       <hr />
       <h2 className={styles.assistedLivingContainer__listTitle}>
-        What we don't cover
+        What we don&apos;t cover
       </h2>
       <ul className={styles.assistedLivingContainer__list}>
         {notCoveredServices.map((service, index) => (

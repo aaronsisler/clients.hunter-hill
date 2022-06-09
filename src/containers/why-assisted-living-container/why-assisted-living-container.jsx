@@ -16,7 +16,8 @@ const WhyAssistedLivingContainer = () => (
   <div className={styles.whyAssistedLivingContainer}>
     <Image
       className={styles.whyAssistedLivingContainer__splashImage}
-      {...splashImage}
+      alt={splashImage.alt}
+      src={splashImage.src}
     />
     <div className={styles.whyAssistedLivingContainer__content}>
       <h1 className={styles.whyAssistedLivingContainer__title}>
@@ -24,7 +25,7 @@ const WhyAssistedLivingContainer = () => (
       </h1>
       <p>
         Simply put, assisted living communities give older adults personalized
-        care in a residential setting. They’re for seniors whose health or
+        care in a residential setting. They&apos;re for seniors whose health or
         well-being requires a higher level of support, which is determined
         through a health assessment by the community according to state
         regulations. Assisted living also provides a healthy lifestyle and
@@ -44,9 +45,9 @@ const WhyAssistedLivingContainer = () => (
       <p>
         Residents are assessed when they move in, so they can get an
         individualized service plan to meet specific needs and make their care
-        truly personal. Some assisted living communities, such as Waterbrooke,
+        truly personal. Some assisted living communities, such as Hunter Hill,
         are also licensed to provide memory care. These will often have separate
-        dining rooms and menus based on residents’ nutritional needs.&nbsp;
+        dining rooms and menus based on residents&apos; nutritional needs.&nbsp;
         <Hyperlink
           href="/assisted-living"
           title="Learn more about what we offer."
