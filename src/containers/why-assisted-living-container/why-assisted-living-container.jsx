@@ -1,36 +1,37 @@
 import React from "react";
-import Image from "../../atoms/image";
+import { Image } from "../../atoms/image";
 import Hyperlink from "../../atoms/hyperlink";
 import { getCdnUrl } from "../../utils";
 
-import "./why-assisted-living-container.scss";
+import styles from "./why-assisted-living-container.module.scss";
 
 const CDN_URL = getCdnUrl("/why-assisted-living");
 
 const splashImage = {
-  altText: "Man holding hands together in thought",
-  src: `${CDN_URL}/why-assisted-living-container.jpg`
+  alt: "Man holding hands together in thought",
+  src: `${CDN_URL}/why-assisted-living-container.jpg`,
 };
 
 const WhyAssistedLivingContainer = () => (
-  <div className="why-assisted-living-container">
+  <div className={styles.whyAssistedLivingContainer}>
     <Image
-      className="why-assisted-living-container__splash-image"
-      {...splashImage}
+      className={styles.whyAssistedLivingContainer__splashImage}
+      alt={splashImage.alt}
+      src={splashImage.src}
     />
-    <div className="why-assisted-living-container__content">
-      <h1 className="why-assisted-living-container__title">
+    <div className={styles.whyAssistedLivingContainer__content}>
+      <h1 className={styles.whyAssistedLivingContainer__title}>
         What is assisted living?
       </h1>
       <p>
         Simply put, assisted living communities give older adults personalized
-        care in a residential setting. They’re for seniors whose health or
+        care in a residential setting. They&apos;re for seniors whose health or
         well-being requires a higher level of support, which is determined
         through a health assessment by the community according to state
         regulations. Assisted living also provides a healthy lifestyle and
         social engagement.
       </p>
-      <h2 className="why-assisted-living-container__sec-title">
+      <h2 className={styles.whyAssistedLivingContainer__secTitle}>
         What can assisted living provide?
       </h2>
       <p>
@@ -46,7 +47,7 @@ const WhyAssistedLivingContainer = () => (
         individualized service plan to meet specific needs and make their care
         truly personal. Some assisted living communities, such as Hunter Hill,
         are also licensed to provide memory care. These will often have separate
-        dining rooms and menus based on residents’ nutritional needs.&nbsp;
+        dining rooms and menus based on residents&apos; nutritional needs.&nbsp;
         <Hyperlink
           href="/assisted-living"
           title="Learn more about what we offer."

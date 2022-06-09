@@ -12,11 +12,11 @@ class MyApp extends App {
     return (
       <>
         <Head>
+          <title>Hunter Hill Assisted Living</title>
           <meta
             name="viewport"
             content="initial-scale=1.0, width=device-width"
           />
-          <title>Hunter Hill Assisted Living</title>
         </Head>
         <Navbar />
         <Component {...pageProps} />

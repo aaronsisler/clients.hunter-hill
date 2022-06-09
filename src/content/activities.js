@@ -4,17 +4,17 @@ const CDN_URL = getCdnUrl("/activities");
 
 const eventImages = [
   {
-    altText: "Disco party for residents",
-    src: `${CDN_URL}/activities-container__disco.jpg`
+    alt: "Disco party for residents",
+    src: `${CDN_URL}/activities-container__disco.jpg`,
   },
   {
-    altText: "Tea party for residents on Mother's Day",
-    src: `${CDN_URL}/activities-container__tea.jpg`
+    alt: "Tea party for residents on Mother's Day",
+    src: `${CDN_URL}/activities-container__tea.jpg`,
   },
   {
-    altText: "Santa visiting the residents during Christmas party",
-    src: `${CDN_URL}/activities-container__santa.jpg`
-  }
+    alt: "Santa visiting the residents during Christmas party",
+    src: `${CDN_URL}/activities-container__santa.jpg`,
+  },
 ];
 
 const activities = [
@@ -29,7 +29,7 @@ const activities = [
   "Memory Stimulation",
   "Front & Back Porch Activities (Weather Permitting)",
   "Cooking Class",
-  "Arts & Crafts"
+  "Arts & Crafts",
 ];
 
 export { activities, eventImages };

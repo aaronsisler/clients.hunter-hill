@@ -1,22 +1,28 @@
 import React from "react";
-import Image from "../../atoms/image";
+import { Image } from "../../atoms/image";
 import Hyperlink from "../../atoms/hyperlink";
 import { getCdnUrl } from "../../utils";
 
-import "./landing-container.scss";
+import styles from "./landing-container.module.scss";
 
 const CDN_URL = getCdnUrl("/landing");
 
 const splashImage = {
-  altText: "Flowers on the front outdoor porch",
-  src: `${CDN_URL}/landing-container__splash.jpg`
+  alt: "Outdoor picture of the facility",
+  src: `${CDN_URL}/landing-container__splash.jpg`,
 };
 
 const LandingContainer = () => (
-  <div className="landing-container">
-    <Image className="landing-container__splash-image" {...splashImage} />
-    <div className="landing-container__content">
-      <h1 className="landing-container__content-title">
+  <div className={styles.landingContainer}>
+    <Image
+      className={styles.landingContainer__splashImage}
+      alt={splashImage.alt}
+      src={splashImage.src}
+    />
+    {/* <div className={styles.landingContainer__banner}>
+    </div> */}
+    <div className={styles.landingContainer__content}>
+      <h1 className={styles.landingContainer__contentTitle}>
         Life is better at Hunter Hill
       </h1>
       <p>
@@ -28,8 +34,8 @@ const LandingContainer = () => (
         <Hyperlink href="/daily-life" title="learning more here." />
       </p>
     </div>
-    <div className="landing-container__content">
-      <h2 className="landing-container__content-sec-title">
+    <div className={styles.landingContainer__content}>
+      <h2 className={styles.landingContainer__contentSecTitle}>
         Not sure where to begin?
       </h2>
       <p>
